@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1F1346;
+  font-family: "DM Sans", sans-serif;
+}
+
+/* HEADER ESTILO HOSTINGER */
+.header {
+  background-color: #fff;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.logo img {
+  height: 30px;
+  cursor: pointer;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #1d1d1d;
+  font-weight: 500;
+  font-size: 15px;
+  transition: color 0.2s ease;
+}
+
+.nav a:hover {
+  color: #673DE6;
+}
+
+.nuevo {
+  background-color: #E8FFF6;
+  color: #00B090;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 5px;
+  margin-left: 4px;
+  text-transform: uppercase;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.lang {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  color: #1d1d1d;
+  cursor: pointer;
+}
+
+.lang img {
+  width: 20px;
+  border-radius: 3px;
+}
+
+.login-btn {
+  background-color: #fff;
+  border: 1.5px solid #673DE6;
+  color: #673DE6;
+  font-weight: 600;
+  padding: 6px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.login-btn:hover {
+  background-color: #673DE6;
+  color: #fff;
+}
+
+/* SECCIÓN MIGRACIÓN */
+.migracion {
+  margin-top: 80px;
+  padding: 0 20px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.titulo {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.texto {
+  max-width: 850px;
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.padre {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1100px;
+}
+
+.hijo {
+  flex: 1 1 300px;
+  background-color: #2F1C6A;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: left;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  transition: transform 0.2s ease;
+}
+
+.hijo:hover {
+  transform: translateY(-5px);
+}
+
+.color {
+  background-color: #673DE6;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.titulo-box {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.botton {
+  background-color: #673DE6;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 32px;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.botton:hover {
+  background-color: #5b32cc;
+}
+
+.whatsapp-btn {
+  color: #f0f8ff;
+  background-color: #673DE6;
+  border-radius: 8px;
+  padding: 10px;
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  font-weight: 700;
+  gap: 10px;
+  display: flex;
+}
